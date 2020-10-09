@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link type="text/css" rel="stylesheet" href="./style.css">
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
+        <title>Currency Converter</title>
+    </head>
+    <body>
+        <main>
+			<div class="main-section">
+				<div class="text">
+					<h2>Currency Converter</h2>
+				</div>
+				<div class="text2">
+					<label for="currency"><h2>Select Currency</h2></label> 
+					<select name="fee" id="currency">
+						<option value="NGN">Naira</option>
+						<option value="ZMW">Zambian Kwacha</option>
+						<option value="GBP">Pounds Sterling</option>
+						<option value="USD">US Dollars</option>
+					</select>
+					<br>
+					<p>Input a value</p>
+					<input type="number" id="number" min="1"/>
+					<br>
+					<img class="img" src="./free-coin-exchange-icon-2427-thumb.png">
+					<label for="currency"><h2>Select Currency</h2></label> 
+					<select name="fee" id="currency2">
+						<option value="NGN">Naira</option>
+						<option value="ZMW">Zambian Kwacha</option>
+						<option value="GBP">Pounds Sterling</option>
+						<option value="USD">US Dollars</option>
+					</select>
+					<br>
+					<button id="button" type="submit">CALCULATE</button>
+					<br>
+					<h2><output id="result"></output></h2>
+					<div>
+						<h3>Need more currency exchanges? <button id="btn">Click here!</button></h3>
+					</div>
+				</div>
+			</div>
+        </main>
+        <script src="./file.js"></script>
+    </body>
+</html>
