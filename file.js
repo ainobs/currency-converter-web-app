@@ -12,7 +12,7 @@ let number = document.getElementById('number');
 let calculate = () => {
 	let access_key = '680bbc3728d9add676669ad55d2595fe';
 
-	fetch(`https://data.fixer.io/api/latest?access_key=${access_key}`)
+	fetch(`http://data.fixer.io/api/latest?access_key=${access_key}`)
 	.then(response => response.json())
 	
 	.then(response => {
